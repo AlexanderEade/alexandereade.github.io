@@ -1,84 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>My Hobbies & Interests</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A simple, no-CSS personal site about my hobbies and interests." />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Alex Eade – Professional Portfolio</title>
+<meta name="description" content="Professional portfolio highlighting education, certifications, and projects in network engineering, cybersecurity, and automation." />
+<meta name="author" content="Alex Eade" />
+<!-- Optional: Social preview -->
+<meta property="og:title" content="Alex Eade – Professional Portfolio" />
+<meta property="og:description" content="Projects and experience in network engineering, cybersecurity, and infrastructure automation." />
+<meta property="og:type" content="website" />
 </head>
 <body>
-    <!-- ===== Header ===== -->
-    <header>
-        <h1>My Hobbies & Interests</h1>
-        <p>Hello! I’m Alex Eade. This page shares what I’m into and why. The HTML code for this website was generated with ChatGPT by asking it to give me a simple HTML website using the instructions in the assignment. However, I added in my personal information and tweaked it to fit what I wanted to put on here.</p>
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#hobbies">Hobbies</a> |
-            <a href="#github">GitHub Explanation</a>
-        </nav>
-        <hr />
-    </header>
+<!-- Simple, CSS‑free layout for GitHub Pages -->
+<header>
+<h1>Alex Eade</h1>
+<p>Network Engineering • Cybersecurity • Automation</p>
+<nav>
+<a href="#about">About</a> |
+<a href="#education">Education & Certifications</a> |
+<a href="#projects">Projects</a> |
+<a href="#skills">Skills</a> |
+<a href="#media">Media</a> |
+<a href="#tools-notes">AI Tools Notes</a> |
+<a href="#contact">Contact</a>
+</nav>
+<hr />
+</header>
 
-    <!-- ===== About ===== -->
-    <main id="about">
-        <h2>About Me</h2>
-        <p>
-            I’m a student who enjoys learning new tools and exploring technologies.
-            When I’m not studying, I love spending time on the activities below.
-        </p>
-    </main>
 
-    <!-- ===== Hobbies ===== -->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
+<main>
+<!-- HERO IMAGE PLACEHOLDER -->
+<!-- Replace hero.jpg with an image you generate using Google's Nano Banana (images) -->
+<!-- <img src="assets/hero.jpg" alt="Futuristic server room representing automation and cybersecurity" width="100%" /> -->
 
-        <details open>
-            <summary>Gaming</summary>
-            <p>
-                I currently still enjoy gaming after growing up with it. I love the competitive nature of most games and I actually am rank 1 in the United States in a gamemode called Surfing from Counter Strike Source (although its present in the new games).
-                I started out with Call of Duty but I have always been a competitive player since I started.
-            </p>
-        </details>
 
-        <details>
-            <summary>Music</summary>
-            <p>
-                I listen to a lot of Rap/Hip-Hop and R&b. I have been to a lot of concerts and saw artists such as Travis Scott, Lil Tecca (who I'm seeing again this Thursday), 21 Savage, JID, and many more. It has always been a way for me to reflect on myself and enjoy music. 
-            </p>
-        </details>
-
-        <details>
-            <summary>Technology</summary>
-            <p>
-                As a technology focused major, it is pretty natural that I love technology. However, I am very passionate about it and I spend a lot of my freetime diving into new technologies that sound cool to me. As a networking background, this can be new protocols that I haven't used before
-                or new hardware that I haven't worked with. I also love learning about automation and building things how the big companies do it. That part excites the problem solver in me.'
-            </p>
-        </details>
-        <hr />
-    </section>
-
-    <!-- ===== GitHub Explanation ===== -->
-    <section id="github">
-        <h2>GitHub Explanation</h2>
-        <p>
-            When creating this website, we started by creating a Github repository to host our HTML files. GitHub Pages allows us to serve static websites directly from our repositories, making it easy to share our work with others. A branch is
-            just a separate version of the repository where we can make changes without affecting the main codebase. This is useful for testing new features or making updates without disrupting the main branch that the site may be running on. In my case, I just stuck to the "main"
-            branch since I wasn't making any major changes that needed to be tested first. A commit is a snapshot of the changes made to the codebase at a specific point in time. Each commit has a unique identifier and a message that describes the changes made which is set by the user.
-            For example, I made my commit of this page with the message "new index file" and this version of the code has a series of numbers that identifies it.
-            This is useful when we need to look at a certain version of the code or understand the changes a teammate makes when working on a project together.
-            <hr />
+<section id="about">
+<h2>About Me</h2>
+<p>
+I’m an aspiring network engineer and automation developer focused on building reliable, secure, and scalable infrastructure.
+I work across NetBox, Ansible/AWX, Xen Orchestra, FreeIPA, and Palo Alto NGFW to automate end‑to‑end provisioning for labs and production environments.
+</p>
+<!-- Optional headshot generated with Nano Banana -->
+<!-- <img src="assets/headshot.jpg" alt="Professional headshot of Alex Eade" width="220" /> -->
 </section>
 
-    <!-- ===== Footer ===== -->
-    <footer>
-        <p>
-            © <span id="year"></span> Alex Eade.
-            Built with plain HTML and hosted on GitHub Pages. The HTML code for this website was generated by ChatGPT to let me spend less time learning HTML syntax and more time on the content and design of the website.
-        </p>
-    </footer>
 
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-</body>
+<hr />
+
+
+<section id="education">
+<h2>Education & Certifications</h2>
+<h3>Education</h3>
+<ul>
+<li><strong>Texas A&M University</strong> – B.S. in Management Information Systems (expected 2027)</li>
+</ul>
+<h3>Certifications</h3>
+<ul>
+<li>Cisco CCNA</li>
+<li>CompTIA Security+</li>
+<li>In progress: CCNP ENCOR</li>
+</ul>
+</section>
+
+
+<hr />
+
+
+<section id="projects">
+<h2>Selected Projects</h2>
+
+
+<article>
+<h3>Cyber Range Automation</h3>
+<p>
+Automated provisioning of class labs and student VMs using AWX workflows with NetBox as the source of truth and Xen Orchestra for orchestration.
+Integrated Kea DHCP + FreeIPA/Bind for dynamic DNS and Palo Alto NGFW for zone‑based policies.
+</p>
+<!-- Optional diagram generated with Nano Banana -->
+<!-- <img src="assets/cyber-range-diagram.png" alt="Automation workflow diagram (NetBox → AWX → XO → Firewall/DNS)" width="100%" /> -->
+<ul>
+<li>Outcome: Reduced manual provisioning time from hours to minutes.</li>
+<li>Stack: NetBox, Ansible/AWX, Xen Orchestra, Kea DHCP, FreeIPA/Bind, Palo Alto NGFW.</li>
+</ul>
+</article>
+
+
+<article>
+<h3>Network Automation Pipeline</h3>
+<p>
+Built idempotent Ansible roles to configure Cisco switch VLANs, DHCP scopes, and firewall subinterfaces/policies from NetBox data models.
+</p>
+<ul>
+<li>Outcome: Consistent multi‑tenant provisioning with auditability.</li>
 </html>
