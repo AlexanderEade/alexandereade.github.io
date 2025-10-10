@@ -1,0 +1,38 @@
+:root{
+  --bg:#0b0f14;
+  --card:#121821;
+  --ink:#e6eef8;
+  --muted:#a8b3c7;
+  --accent:#4da3ff;
+  --accent-2:#6cffb1;
+  --border:#253140;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+a:hover{opacity:.9;text-decoration:underline}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.header{position:sticky;top:0;background:rgba(11,15,20,.85);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);z-index:10}
+.brand{display:flex;align-items:center;gap:12px}
+.brand h1{margin:0;font-size:28px}
+.tag{color:var(--muted);font-size:14px;margin:0}
+nav{margin-top:8px;display:flex;flex-wrap:wrap;gap:12px}
+nav a{padding:6px 10px;border:1px solid var(--border);border-radius:999px}
+.hero{padding:28px 0 8px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(12,1fr)}
+.card{grid-column:span 12;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px}
+@media(min-width:800px){.card.half{grid-column:span 6}}
+h2{margin:0 0 10px 0;font-size:22px}
+h3{margin:16px 0 6px 0;font-size:18px}
+ul{margin:10px 0 0 18px}
+.section{margin:18px 0}
+footer{border-top:1px solid var(--border);margin-top:20px}
+.badge{display:inline-block;background:#0e1420;border:1px solid var(--border);padding:4px 10px;border-radius:999px;margin:4px 6px 0 0;color:var(--muted);font-size:13px}
+.kicker{color:var(--accent-2);font-weight:600;letter-spacing:.04em;font-size:12px;text-transform:uppercase}
+.inline-list{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 0 0;padding:0;list-style:none}
+.button{display:inline-block;background:var(--accent);color:#001023;padding:10px 14px;border-radius:12px;font-weight:700;border:0}
+.button.secondary{background:transparent;color:var(--ink);border:1px solid var(--border)}
+code{background:#0e1420;border:1px solid var(--border);border-radius:6px;padding:2px 6px}
+.small{color:var(--muted);font-size:13px}
+figure{margin:0}
+.resume-embed{width:100%;height:720px;border:1px solid var(--border);border-radius:12px;background:#0e1420}
