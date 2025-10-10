@@ -35,11 +35,16 @@
   <main class="container">
     <section id="about" class="section">
       <div class="hero card">
+        <!-- 🔹 Banner image -->
+        <figure>
+          <img src="assets/banner.png" alt="Futuristic server room banner representing automation and cybersecurity" style="width:100%;border-radius:12px;margin-bottom:12px;">
+        </figure>
+
         <p class="kicker">About</p>
         <h2>Aspiring network engineer and automation developer</h2>
         <p>
           I design and automate secure, reliable infrastructure. I work across NetBox, Ansible/AWX, Xen Orchestra, FreeIPA,
-          and Palo Alto NGFW to orchestrate end‑to‑end provisioning for labs and production environments.
+          and Palo Alto NGFW to orchestrate end-to-end provisioning for labs and production environments.
         </p>
         <ul class="inline-list small">
           <li>College Station, TX</li>
@@ -62,6 +67,10 @@
             <li>CompTIA Security+</li>
             <li>In progress: CCNP ENCOR</li>
           </ul>
+          <!-- 🔹 Certifications image -->
+          <figure>
+            <img src="assets/certs.png" alt="Certifications graphic showing earned badges" style="width:100%;border-radius:12px;margin-top:12px;">
+          </figure>
         </div>
       </div>
     </section>
@@ -73,8 +82,13 @@
           <h2>Cyber Range Automation</h2>
           <p>
             Automated provisioning of class labs and student VMs using AWX workflows with NetBox as the source of truth and Xen Orchestra for orchestration.
-            Integrated Kea DHCP + FreeIPA/Bind for dynamic DNS and Palo Alto NGFW for zone‑based policies.
+            Integrated Kea DHCP + FreeIPA/Bind for dynamic DNS and Palo Alto NGFW for zone-based policies.
           </p>
+          <!-- 🔹 Diagram image -->
+          <figure>
+            <img src="assets/diagram.png" alt="Automation workflow diagram showing NetBox to AWX to XO to Firewall" style="width:100%;border-radius:12px;margin:12px 0;">
+            <figcaption class="small">Automation workflow diagram generated with Nano Banana</figcaption>
+          </figure>
           <ul>
             <li>Outcome: Reduced manual provisioning time from hours to minutes.</li>
             <li>Stack: NetBox, Ansible/AWX, Xen Orchestra, Kea DHCP, FreeIPA/Bind, Palo Alto NGFW.</li>
@@ -88,7 +102,7 @@
             Built idempotent Ansible roles to configure Cisco switch VLANs, DHCP scopes, and firewall subinterfaces/policies from NetBox data models.
           </p>
           <ul>
-            <li>Outcome: Consistent multi‑tenant provisioning with auditability.</li>
+            <li>Outcome: Consistent multi-tenant provisioning with auditability.</li>
             <li>Stack: Ansible, Jinja2, NetBox, GitLab CI, AWX Webhooks.</li>
           </ul>
         </div>
@@ -107,7 +121,7 @@
           <span class="badge">Ansible / AWX</span>
           <span class="badge">Jinja2</span>
           <span class="badge">NetBox</span>
-          <span class="badge">Xen Orchestra / XCP‑ng</span>
+          <span class="badge">Xen Orchestra / XCP-ng</span>
           <span class="badge">Kea DHCP</span>
           <span class="badge">FreeIPA / Bind (DNS)</span>
           <span class="badge">Python</span>
@@ -125,7 +139,7 @@
         <h3>Nano Banana (Images)</h3>
         <ul>
           <li>Generated a <em>hero banner</em> of a futuristic server room to visually communicate my focus on automation and cybersecurity.</li>
-          <li>Created a <em>diagram‑style illustration</em> of my Cyber Range automation workflow for the Projects section.</li>
+          <li>Created a <em>diagram-style illustration</em> of my Cyber Range automation workflow for the Projects section.</li>
         </ul>
         <h3>Veo (Videos)</h3>
         <ul>
@@ -166,7 +180,7 @@
         </div>
         <div class="card half">
           <p class="kicker">Credits</p>
-          <p class="small">© <span id="year"></span> Alex Eade. Built for a GitHub Pages deployment. Add AI‑generated media to <code>/assets</code> and reference them in your sections.</p>
+          <p class="small">© <span id="year"></span> Alex Eade. Built for a GitHub Pages deployment. Add AI-generated media to <code>/assets</code> and reference them in your sections.</p>
         </div>
       </div>
     </section>
